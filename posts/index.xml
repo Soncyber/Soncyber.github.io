@@ -71,7 +71,7 @@ echo &amp;ldquo;8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo&amp;rdquo; | openssl s_client -
 &lt;p&gt;nmap -p 31000-32000 localhost
 echo &amp;quot;
 KEY&amp;mdash;&amp;ndash;
-(dán toàn bộ private key vào đây)
+(paste all private key here)
 &amp;mdash;&amp;ndash;END RSA PRIVATE KEY&amp;mdash;&amp;ndash;&amp;quot; &amp;gt; bandit17_key
 chmod 600 bandit17_key
 ssh -i bandit17_key &lt;a href=&#34;mailto:bandit17@bandit.labs.overthewire.org&#34;&gt;bandit17@bandit.labs.overthewire.org&lt;/a&gt; -p 2220&lt;/p&gt;
