@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>/posts/</link>
+    <description>My New Hugo Site (Posts)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+
+    
+    <lastBuildDate>Sat, 15 Mar 2025 17:20:38 +0700</lastBuildDate>
+    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bandit</title>
+      <link>/posts/bandit/</link>
+      <pubDate>Sat, 15 Mar 2025 17:20:38 +0700</pubDate>
+      
+      <guid>/posts/bandit/</guid>
+      <description>&lt;p&gt;#Connect to WeChall
+#Shift + Insert to Paste with Windows (putty)&lt;/p&gt;
+&lt;p&gt;export WECHALLUSER=&amp;ldquo;meerkat96&amp;rdquo;;export WECHALLTOKEN=&amp;ldquo;5D7C1-1FAEC-0EDF8-7FF90-7EE38-553D1&amp;rdquo;;wechall&lt;/p&gt;
+&lt;p&gt;#Bandit0 -&amp;gt; 1: bandit0 /bandit0
+cat readme&lt;/p&gt;
+&lt;p&gt;#Bandit 1 -&amp;gt; 2: bandit1 / ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+cat ./-&lt;/p&gt;
+&lt;p&gt;#Bandit 2 -&amp;gt;3: bandit2 / 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+cat &amp;ldquo;spaces in this filename&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;#Bandit 3 -&amp;gt; 4: bandit3 / MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+ls -A
+cat /home/bandit3/inhere/&amp;hellip;Hiding-From-You&lt;/p&gt;
+&lt;p&gt;#Bandit 4 -&amp;gt;5: bandit4 / 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+ls inhere
+cat ./-file07&lt;/p&gt;
+&lt;p&gt;#Bandit 5-&amp;gt;6: bandit5 / 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+find inhere -type f -size 1033c&lt;/p&gt;
+&lt;p&gt;#Bandit 6-&amp;gt;7: bandit6 / HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+find / -type f -user bandit7 -group bandit6 -size 33c 2&amp;gt;/dev/null&lt;/p&gt;
+&lt;p&gt;#Bandit 7-&amp;gt;8: bandit7 / morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+grep &amp;ldquo;millionth&amp;rdquo; data.txt&lt;/p&gt;
+&lt;p&gt;#Bandit 8-&amp;gt;9: bandit8 / dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+sort data.txt | uniq -u&lt;/p&gt;
+&lt;p&gt;#Bandit 9-&amp;gt;10: bandit9 /4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+strings data.txt | grep &amp;ldquo;====&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;#Bandit 10-&amp;gt;11: bandit10 / FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+cat data.txt | base64 -d&lt;/p&gt;
+&lt;p&gt;#Bandit 11-&amp;gt;12: bandit11 /dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+cat data.txt | tr &amp;lsquo;A-Za-z&amp;rsquo; &amp;lsquo;N-ZA-Mn-za-m&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;#Bandit 12-&amp;gt;13: bandit12 / 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+cd /tmp
+TMP_DIR=$(mktemp -d) &amp;amp;&amp;amp; cd &amp;ldquo;$TMP_DIR&amp;rdquo;
+cp /home/bandit12/data.txt ./&lt;br&gt;
+mv data.txt data.hex&lt;br&gt;
+xxd -r data.hex &amp;gt; data.bin #hex -&amp;gt; binary
+file data.bin
+mv data.bin data.gz
+gunzip data.gz
+bzip2 -d data.bz2
+tar -xf data.tar
+unzip data.zip&lt;/p&gt;
+&lt;p&gt;#Bandit 13-&amp;gt;14: bandit13 / FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+ssh -i sshkey.private bandit14@localhost -p 2220&lt;/p&gt;
+&lt;p&gt;#Bandit 14-&amp;gt;15: bandit14 / MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+echo &amp;ldquo;MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS&amp;rdquo; | nc localhost 30000&lt;/p&gt;
+&lt;p&gt;#Bandit 15-&amp;gt;16: bandit15 /8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+echo &amp;ldquo;8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo&amp;rdquo; | openssl s_client -connect localhost:30001 -quiet&lt;/p&gt;
+&lt;p&gt;#Bandit 16-&amp;gt;17: bandit16 / kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx&lt;/p&gt;
+&lt;p&gt;nmap -p 31000-32000 localhost
+echo &amp;quot;
+KEY&amp;mdash;&amp;ndash;
+(dán toàn bộ private key vào đây)
+&amp;mdash;&amp;ndash;END RSA PRIVATE KEY&amp;mdash;&amp;ndash;&amp;quot; &amp;gt; bandit17_key
+chmod 600 bandit17_key
+ssh -i bandit17_key &lt;a href=&#34;mailto:bandit17@bandit.labs.overthewire.org&#34;&gt;bandit17@bandit.labs.overthewire.org&lt;/a&gt; -p 2220&lt;/p&gt;
+&lt;p&gt;#Bandit 17-&amp;gt;18
+diff passwords.old passwords.new&lt;/p&gt;
+&lt;p&gt;#Bandit 18-&amp;gt;19: bandit18/ x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+ssh &lt;a href=&#34;mailto:bandit18@bandit.labs.overthewire.org&#34;&gt;bandit18@bandit.labs.overthewire.org&lt;/a&gt; -p 2220 -t &amp;ldquo;bash &amp;ndash;noprofile &amp;ndash;norc&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;#Bandit 19-&amp;gt;20: bandit19 / cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
